@@ -1,0 +1,84 @@
+.container {
+    background-color: #fff;
+    padding: 0 !important;
+}
+.contentContainer {
+    padding-top: 50px !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.heading {
+    color: #13283E !important;
+    font-size: 50px !important;
+    margin-bottom: 30px !important;
+}
+.hr {
+    background-color: #BF0010 !important;
+    height: 3px !important;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.colTeamCard{
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 25px #00000024!important;
+    border-radius: 6px;
+    text-align: center;
+    max-width: 200px;
+    margin: 15px 15px;
+}
+.teamCardImg{
+    width: 75%;
+}
+.teamTitle{
+    color: #13273e;
+    margin-bottom: 7px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.teamSubTitle{
+    color: #4a545d;
+    font-size: 10px;
+    /* margin-top: -30px; */
+    margin-bottom: 15px;
+}
+.row {
+    justify-content: center !important;
+    
+}
+.linkedInkink {
+    color: #BF0010 !important;
+    align-items: center;
+    justify-content: center;
+}
+.iconSM {
+    width: 50% !important;
+    justify-content: center;
+}
+.linkedinicon{
+    color: #000 !important;
+
+}
+.btn {
+    position: absolute;
+    left: 79px;
+    background: #bf0010;
+    border-color: #bf0010;
+    display: flex;
+    align-items: center;
+	cursor:pointer;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+}
+.btn:hover{
+    transition: 0.3s !important;
+    background-color: #0077B5;
+    border: 1px solid #0077B5;
+}
+
+        

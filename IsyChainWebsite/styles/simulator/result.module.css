@@ -1,0 +1,44 @@
+.container {
+    padding: 20px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin-top: 70px;
+    background-color: #fff !important;
+    box-shadow: 1px 1px 25px #00000024!important;
+}
+.heading {
+    color: #13283E !important;
+    font-size: 50px !important;
+    margin-bottom: 10px !important;
+}
+.hr {
+    background-color: #BF0010 !important;
+    height: 3px !important;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.saveBtn {
+    background-color: #BF0010 !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+    border-color: #BF0010 !important;
+    margin-top: 15px !important;
+}
+.saveBtn:hover {
+    background-color: #fff !important;
+    color: #BF0010 !important;
+    border-radius: 6px !important;
+    border-color: #BF0010 !important;
+}
+.saveBtn:focus {
+    background-color: #fff !important;
+    color: #BF0010 !important;
+    border-radius: 6px !important;
+    border-color: #BF0010 !important;
+}
+.table {
+    border: 0px solid transparent;
+}
+.tr {
+    padding: 10px 5px;
+}

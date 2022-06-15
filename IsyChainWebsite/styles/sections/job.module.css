@@ -1,0 +1,57 @@
+.container {
+    background-color: #fff;
+    padding-top: 150px;
+}
+
+.contentContainer {
+    padding-top: 50px !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.contentContainer5 {
+    margin-top: 30px;
+    width: 100%;
+    padding-left: 0%;
+    border: 1px solid #cbdaf8;
+}
+.h5job{
+    font-size: 1.25rem;
+    color: #13283e;
+    margin-top: 7px;
+}
+
+.heading {
+    color: #13283E !important;
+    font-size: 50px !important;
+    margin-bottom: 30px !important;
+}
+.hr {
+    background-color: #BF0010 !important;
+    height: 3px !important;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.Accorheader{
+    background-color: #BF0010 !important;
+    color: #BF0010;
+}
+.accordion-button{
+    background: #13283e !important;
+    color: white !important;
+
+}
+.Accordion{
+    width: 800px !important;
+}
+.emp{
+    width: 45px;
+    height: 45px;
+}
+.arrow{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 13px;
+}

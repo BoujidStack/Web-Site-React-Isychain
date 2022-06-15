@@ -1,0 +1,57 @@
+.logo {
+    width: 18%;
+    padding-right: 15px !important;
+    margin-right: 10px;
+}
+.navbrand {
+    text-align: center !important;
+}
+.navbar {
+    box-shadow: 1px 1px 10px 1px #0000002e !important;
+}
+.navlink {
+    font-weight: bold !important;
+    border-bottom: 3px solid transparent;
+}
+.navlink:hover {
+    border-bottom: 3px solid #BF0010;
+    background-color: #cccccc38 !important;
+    border-top-left-radius: 1px !important;
+    border-top-right-radius: 1px !important;
+}
+.contact{
+    font-weight: bold !important;
+    background-color: #bf0010;
+    border-color: #BF0010;
+    border-bottom: 3px solid transparent;
+    margin-left: 129px;
+}
+.contact:hover {
+	background-color:#ff031c;
+    border-color: #BF0010;
+}
+
+@media (max-width: 1199px){
+    .logo {
+        width: 22%;
+        
+    }
+}
+@media (max-width: 991px){
+    .logo {
+        width: 28%;
+        
+    }
+}
+@media (max-width: 767px){
+    .logo {
+        width: 40%;
+        
+    }
+}
+@media (max-width: 576px){
+    .logo {
+        width: 50%;
+        
+    }
+}
