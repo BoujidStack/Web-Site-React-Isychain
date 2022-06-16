@@ -11,7 +11,7 @@
 }
 .rowx{
    justify-content: center;
-   padding-top: 50px;
+   padding-top: 15px;
    padding-left: 50px;
 }
 .h2{
@@ -21,7 +21,6 @@
     letter-spacing:-1px;
     word-spacing:0px;
     margin:0px 0px 0px;
-
     font-size:40px;
     text-align:left;
     letter-spacing: -1px;
@@ -48,7 +47,7 @@
 
 .h5{
     color:#ffffff;
-    margin-top: 15px;
+    margin-top: 10px;
     vertical-align: baseline;
     letter-spacing:normal;
     word-spacing: 0px;
@@ -84,11 +83,11 @@
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:23px;
+	font-size:20px;
 	padding:11px 22px;
 	text-decoration:none;
     border-color: #BF0010;
-    margin-top: 25px;
+    margin-top: 65px;
     float: left;
 }
 .btn:hover {
@@ -102,7 +101,7 @@
 
 .heading {
     color: #fff !important;
-    font-size: 50px !important;
+    font-size: 38px !important;
     margin-bottom: 30px !important;
 }
 .paragraph {
@@ -129,19 +128,23 @@
     height: 3px !important;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
     .rowx{
         padding-left: 0px !important;
      }
     .h2{
-        font-size:29px !important;
+        font-size:22px !important;
         height: 69px;
+        margin-top: -15px;
     }
     .span {
         font-size:29px !important;
     }
     .h5{
         font-size: 15px !important;
+    }
+    .btn{
+        margin-top: 25px;
     }
 }
 @media only screen and  (max-width: 992px){

@@ -1,444 +1,136 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 734:
+/***/ "./components/layouts/footer.jsx":
+/*!***************************************!*\
+  !*** ./components/layouts/footer.jsx ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-;// CONCATENATED MODULE: external "aos"
-const external_aos_namespaceObject = require("aos");
-var external_aos_default = /*#__PURE__*/__webpack_require__.n(external_aos_namespaceObject);
-// EXTERNAL MODULE: external "react-bootstrap/Container"
-var Container_ = __webpack_require__(678);
-var Container_default = /*#__PURE__*/__webpack_require__.n(Container_);
-// EXTERNAL MODULE: external "react-bootstrap/Row"
-var Row_ = __webpack_require__(907);
-var Row_default = /*#__PURE__*/__webpack_require__.n(Row_);
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: ./components/layouts/main.jsx
-
-
-
-
-
-function Main_Layout({
-  children
-}) {
-  return /*#__PURE__*/jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-    children: /*#__PURE__*/jsx_runtime_.jsx((Container_default()), {
-      fluid: true,
-      className: "p-0",
-      children: /*#__PURE__*/jsx_runtime_.jsx((Row_default()), {
-        className: "m-0",
-        children: children
-      })
-    })
-  });
-}
-// EXTERNAL MODULE: external "react-bootstrap/Col"
-var Col_ = __webpack_require__(511);
-var Col_default = /*#__PURE__*/__webpack_require__.n(Col_);
-;// CONCATENATED MODULE: external "react-bootstrap/Navbar"
-const Navbar_namespaceObject = require("react-bootstrap/Navbar");
-var Navbar_default = /*#__PURE__*/__webpack_require__.n(Navbar_namespaceObject);
-;// CONCATENATED MODULE: external "react-bootstrap/Nav"
-const Nav_namespaceObject = require("react-bootstrap/Nav");
-var Nav_default = /*#__PURE__*/__webpack_require__.n(Nav_namespaceObject);
-// EXTERNAL MODULE: ./styles/navigation/navigationBar.module.css
-var navigationBar_module = __webpack_require__(292);
-var navigationBar_module_default = /*#__PURE__*/__webpack_require__.n(navigationBar_module);
-// EXTERNAL MODULE: external "react-bootstrap/Button"
-var Button_ = __webpack_require__(937);
-var Button_default = /*#__PURE__*/__webpack_require__.n(Button_);
-;// CONCATENATED MODULE: ./components/navigation/navigationBar.jsx
-
-
-
-
-
-
-
-
-
-
-function NavigationBar() {
-  return /*#__PURE__*/jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-    children: /*#__PURE__*/jsx_runtime_.jsx((Col_default()), {
-      className: "p-0",
-      children: /*#__PURE__*/jsx_runtime_.jsx((Navbar_default()), {
-        className: (navigationBar_module_default()).navbar,
-        expand: "lg",
-        children: /*#__PURE__*/(0,jsx_runtime_.jsxs)((Container_default()), {
-          children: [/*#__PURE__*/jsx_runtime_.jsx("img", {
-            src: "/assets/Logo-vf.png",
-            alt: "IsyChain - We make the blockchain easy !",
-            className: (navigationBar_module_default()).logo
-          }), /*#__PURE__*/jsx_runtime_.jsx((Navbar_default()).Toggle, {
-            "aria-controls": "basic-navbar-nav"
-          }), /*#__PURE__*/(0,jsx_runtime_.jsxs)((Navbar_default()).Collapse, {
-            id: "basic-navbar-nav",
-            children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((Nav_default()), {
-              children: [/*#__PURE__*/jsx_runtime_.jsx((Nav_default()).Link, {
-                className: (navigationBar_module_default()).navlink,
-                href: "#service",
-                children: " Nos services"
-              }), /*#__PURE__*/jsx_runtime_.jsx((Nav_default()).Link, {
-                className: (navigationBar_module_default()).navlink,
-                href: "#team",
-                children: " Notre Equipe"
-              }), /*#__PURE__*/jsx_runtime_.jsx((Nav_default()).Link, {
-                className: (navigationBar_module_default()).navlink,
-                href: "#jobs",
-                children: " Rejoignez-Nous"
-              }), /*#__PURE__*/jsx_runtime_.jsx((Nav_default()).Link, {
-                className: (navigationBar_module_default()).navlink,
-                href: "#product",
-                children: " Nos produits"
-              })]
-            }), /*#__PURE__*/jsx_runtime_.jsx((Nav_default()), {
-              children: /*#__PURE__*/jsx_runtime_.jsx((Button_default()), {
-                href: "#contact",
-                className: (navigationBar_module_default()).contact,
-                type: "submit",
-                children: "Contact"
-              })
-            })]
-          })]
-        })
-      })
-    })
-  });
-}
-// EXTERNAL MODULE: ./styles/layouts/footer.module.css
-var footer_module = __webpack_require__(184);
-var footer_module_default = /*#__PURE__*/__webpack_require__.n(footer_module);
-// EXTERNAL MODULE: external "@fortawesome/react-fontawesome"
-var react_fontawesome_ = __webpack_require__(197);
-;// CONCATENATED MODULE: ./components/layouts/footer.jsx
-
-
-
-
-
-
-
-
-
-function Footer() {
-  return /*#__PURE__*/jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-    children: /*#__PURE__*/jsx_runtime_.jsx((Col_default()), {
-      xl: 12,
-      lg: 12,
-      md: 12,
-      sm: 12,
-      xs: 12,
-      className: (footer_module_default()).container,
-      children: /*#__PURE__*/jsx_runtime_.jsx((Container_default()), {
-        className: (footer_module_default()).contentContainer,
-        children: /*#__PURE__*/(0,jsx_runtime_.jsxs)((Row_default()), {
-          children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((Col_default()), {
-            xl: 3,
-            lg: 3,
-            md: 3,
-            sm: 12,
-            xs: 12,
-            className: (footer_module_default()).container,
-            children: [/*#__PURE__*/jsx_runtime_.jsx("h3", {
-              className: (footer_module_default()).h3,
-              children: "Ressources"
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("ul", {
-              className: (footer_module_default()).ul,
-              children: [/*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#who",
-                  className: (footer_module_default()).ul.a,
-                  children: "Qui Somme-nous ?"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#",
-                  className: (footer_module_default()).ul.a,
-                  children: "Blog"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#jobs",
-                  className: (footer_module_default()).ul.a,
-                  children: "Recrutement"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#",
-                  className: (footer_module_default()).ul.a,
-                  children: "Mentions l\xE9gales"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#",
-                  className: (footer_module_default()).ul.a,
-                  children: "CGU"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#",
-                  className: (footer_module_default()).ul.a,
-                  children: "FAQ"
-                })
-              })]
-            })]
-          }), /*#__PURE__*/(0,jsx_runtime_.jsxs)((Col_default()), {
-            xl: 3,
-            lg: 3,
-            md: 3,
-            sm: 12,
-            xs: 12,
-            className: (footer_module_default()).container,
-            children: [/*#__PURE__*/jsx_runtime_.jsx("h3", {
-              className: (footer_module_default()).h3,
-              children: "Nos Services"
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("ul", {
-              className: (footer_module_default()).ul,
-              children: [/*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#service",
-                  className: (footer_module_default()).ul.a,
-                  children: "IsyChain As a Service"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#service",
-                  className: (footer_module_default()).ul.a,
-                  children: "Conseil & Strat\xE9gie"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#service",
-                  className: (footer_module_default()).ul.a,
-                  children: "D\xE9veloppement sur-mesure"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#service",
-                  className: (footer_module_default()).ul.a,
-                  children: "R&D Blockchain"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#service",
-                  className: (footer_module_default()).ul.a,
-                  children: "Formation"
-                })
-              })]
-            })]
-          }), /*#__PURE__*/(0,jsx_runtime_.jsxs)((Col_default()), {
-            xl: 3,
-            lg: 3,
-            md: 3,
-            sm: 12,
-            xs: 12,
-            className: (footer_module_default()).container,
-            children: [/*#__PURE__*/jsx_runtime_.jsx("h3", {
-              className: (footer_module_default()).h3,
-              children: "Nos produits"
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("ul", {
-              className: (footer_module_default()).ul,
-              children: [/*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#product",
-                  className: (footer_module_default()).ul.a,
-                  children: "SehaChain"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#product",
-                  className: (footer_module_default()).ul.a,
-                  children: "IsyChat"
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-                className: (footer_module_default()).li,
-                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                  href: "#product",
-                  className: (footer_module_default()).ul.a,
-                  children: "IsyNode"
-                })
-              })]
-            })]
-          }), /*#__PURE__*/(0,jsx_runtime_.jsxs)((Col_default()), {
-            xl: 3,
-            lg: 3,
-            md: 3,
-            sm: 12,
-            xs: 12,
-            className: (footer_module_default()).social,
-            children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-              href: "https://www.linkedin.com/company/isychain/",
-              className: (footer_module_default()).linkedInkink,
-              children: [/*#__PURE__*/jsx_runtime_.jsx("img", {
-                src: "https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
-              }), " "]
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-              href: "#",
-              className: (footer_module_default()).linkedInkink,
-              children: [/*#__PURE__*/jsx_runtime_.jsx("img", {
-                src: "https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
-              }), " "]
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-              href: "#",
-              className: (footer_module_default()).linkedInkink,
-              children: [/*#__PURE__*/jsx_runtime_.jsx("img", {
-                src: "https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png"
-              }), " "]
-            }), /*#__PURE__*/jsx_runtime_.jsx("a", {
-              href: "#",
-              className: (footer_module_default()).linkedInkink,
-              children: /*#__PURE__*/jsx_runtime_.jsx("img", {
-                src: "https://img.icons8.com/ios-filled/50/ffffff/medium-logo.png"
-              })
-            })]
-          }), /*#__PURE__*/jsx_runtime_.jsx((Col_default()), {
-            xl: 12,
-            lg: 12,
-            md: 12,
-            sm: 12,
-            xs: 12,
-            className: (footer_module_default()).copyright,
-            children: /*#__PURE__*/jsx_runtime_.jsx("p", {
-              children: "Copyright IsyChain \xA9 2022 All rights reserved"
-            })
-          })]
-        })
-      })
-    })
-  });
-}
-;// CONCATENATED MODULE: external "@fortawesome/fontawesome-svg-core"
-const fontawesome_svg_core_namespaceObject = require("@fortawesome/fontawesome-svg-core");
-// EXTERNAL MODULE: ./node_modules/@fortawesome/fontawesome-svg-core/styles.css
-var styles = __webpack_require__(800);
-;// CONCATENATED MODULE: ./pages/_app.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-fontawesome_svg_core_namespaceObject.config.autoAddCss = false;
-
-const IsyChain_Simulator = ({
-  Component,
-  pageProps
-}) => {
-  (0,external_react_.useEffect)(() => {
-    external_aos_default().init({
-      duration: 1000
-    });
-  });
-  return /*#__PURE__*/(0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-    children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((head_default()), {
-      children: [/*#__PURE__*/jsx_runtime_.jsx("title", {
-        children: "IsyChain - We Make Blockchain Easy"
-      }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
-        name: "viewport",
-        content: "initial-scale=1.0, width=device-width"
-      }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
-        name: "description",
-        content: "IsyChain est une entreprise marocaine mais \xE0 vocation africaine regroupant une \xE9quipe pluridisciplinaire d'experts passionn\xE9s par les technologies du web d\xE9centralis\xE9s et sp\xE9cialis\xE9s dans la technologie blockchain."
-      })]
-    }), /*#__PURE__*/(0,jsx_runtime_.jsxs)(Main_Layout, {
-      children: [/*#__PURE__*/jsx_runtime_.jsx(NavigationBar, {}), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps)), /*#__PURE__*/jsx_runtime_.jsx(Footer, {})]
-    })]
-  });
-};
-
-/* harmony default export */ const _app = (IsyChain_Simulator);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Footer)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/layouts/footer.module.css */ \"./styles/layouts/footer.module.css\");\n/* harmony import */ var _styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Col */ \"react-bootstrap/Col\");\n/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Row */ \"react-bootstrap/Row\");\n/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ \"react-bootstrap/Container\");\n/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"@fortawesome/react-fontawesome\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);\nvar _jsxFileName = \"/home/mohamed/Bureau/Isychain/IsyChainWebsite/IsyChainWebsite/components/layouts/footer.jsx\";\n\n\n\n\n\n\n\n\nfunction Footer() {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.Fragment, {\n    children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n      xl: 12,\n      lg: 12,\n      md: 12,\n      sm: 12,\n      xs: 12,\n      className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().container),\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default()), {\n        className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().contentContainer),\n        children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default()), {\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n            xl: 3,\n            lg: 3,\n            md: 3,\n            sm: 12,\n            xs: 12,\n            className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().container),\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"h3\", {\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().h3),\n              children: \"Ressources\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 17,\n              columnNumber: 25\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"ul\", {\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul),\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#who\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"Qui Somme-nous ?\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 19,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 19,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"Blog\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 20,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 20,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#jobs\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"Recrutement\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 21,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 21,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"Mentions l\\xE9gales\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 22,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 22,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"CGU\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 23,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 23,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"FAQ\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 24,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 24,\n                columnNumber: 33\n              }, this)]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 18,\n              columnNumber: 25\n            }, this)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 16,\n            columnNumber: 21\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n            xl: 3,\n            lg: 3,\n            md: 3,\n            sm: 12,\n            xs: 12,\n            className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().container),\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"h3\", {\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().h3),\n              children: \"Nos Services\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 28,\n              columnNumber: 25\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"ul\", {\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul),\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#service\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"IsyChain As a Service\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 30,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 30,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#service\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"Conseil & Strat\\xE9gie\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 31,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 31,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#service\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"D\\xE9veloppement sur-mesure\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 32,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 32,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#service\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"R&D Blockchain\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 33,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 33,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#service\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"Formation\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 34,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 34,\n                columnNumber: 33\n              }, this)]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 29,\n              columnNumber: 25\n            }, this)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 27,\n            columnNumber: 21\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n            xl: 3,\n            lg: 3,\n            md: 3,\n            sm: 12,\n            xs: 12,\n            className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().container),\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"h3\", {\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().h3),\n              children: \"Nos produits\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 39,\n              columnNumber: 25\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"ul\", {\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul),\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#product\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"SehaChain\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 41,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 41,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#product\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"IsyChat\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 42,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 42,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"li\", {\n                className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().li),\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n                  href: \"#product\",\n                  className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().ul.a),\n                  children: \"IsyNode\"\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 43,\n                  columnNumber: 62\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 43,\n                columnNumber: 33\n              }, this)]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 40,\n              columnNumber: 25\n            }, this)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 38,\n            columnNumber: 21\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n            xl: 3,\n            lg: 3,\n            md: 3,\n            sm: 12,\n            xs: 12,\n            className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().social),\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n              href: \"https://www.linkedin.com/company/isychain/\",\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().linkedInkink),\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"img\", {\n                src: \"https://img.icons8.com/ios-filled/50/ffffff/linkedin.png\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 47,\n                columnNumber: 113\n              }, this), \" \"]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 47,\n              columnNumber: 25\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n              href: \"#\",\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().linkedInkink),\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"img\", {\n                src: \"https://img.icons8.com/ios-filled/50/ffffff/twitter.png\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 48,\n                columnNumber: 72\n              }, this), \" \"]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 48,\n              columnNumber: 25\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n              href: \"#\",\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().linkedInkink),\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"img\", {\n                src: \"https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 49,\n                columnNumber: 72\n              }, this), \" \"]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 49,\n              columnNumber: 25\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"a\", {\n              href: \"#\",\n              className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().linkedInkink),\n              children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"img\", {\n                src: \"https://img.icons8.com/ios-filled/50/ffffff/medium-logo.png\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 50,\n                columnNumber: 72\n              }, this)\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 50,\n              columnNumber: 25\n            }, this)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 46,\n            columnNumber: 21\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n            xl: 12,\n            lg: 12,\n            md: 12,\n            sm: 12,\n            xs: 12,\n            className: (_styles_layouts_footer_module_css__WEBPACK_IMPORTED_MODULE_6___default().copyright),\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)(\"p\", {\n              children: \"Copyright IsyChain \\xA9 2022 All rights reserved\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 54,\n              columnNumber: 25\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 53,\n            columnNumber: 21\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 15,\n          columnNumber: 17\n        }, this)\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 14,\n        columnNumber: 13\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 13\n    }, this)\n  }, void 0, false);\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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aXRlLy4vY29tcG9uZW50cy9sYXlvdXRzL2Zvb3Rlci5qc3g/MWVkZiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgRm9vdGVyY3NzIGZyb20gJy4uLy4uL3N0eWxlcy9sYXlvdXRzL2Zvb3Rlci5tb2R1bGUuY3NzJ1xuaW1wb3J0IENvbCBmcm9tICdyZWFjdC1ib290c3RyYXAvQ29sJ1xuaW1wb3J0IFJvdyBmcm9tICdyZWFjdC1ib290c3RyYXAvUm93J1xuaW1wb3J0IENvbnRhaW5lciBmcm9tICdyZWFjdC1ib290c3RyYXAvQ29udGFpbmVyJ1xuaW1wb3J0IHsgRm9udEF3ZXNvbWVJY29uIH0gZnJvbSAnQGZvcnRhd2Vzb21lL3JlYWN0LWZvbnRhd2Vzb21lJ1xuaW1wb3J0IHsgc29saWQsIGJyYW5kcyB9IGZyb20gJ0Bmb3J0YXdlc29tZS9mb250YXdlc29tZS1zdmctY29yZS9pbXBvcnQubWFjcm8nXG5cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRm9vdGVyKCl7XG4gICAgcmV0dXJuIChcbiAgICAgICAgPD5cbiAgICAgICAgICAgIDxDb2wgeGw9ezEyfSBsZz17MTJ9IG1kPXsxMn0gc209ezEyfSB4cz17MTJ9IGNsYXNzTmFtZT17Rm9vdGVyY3NzLmNvbnRhaW5lcn0+XG4gICAgICAgICAgICA8Q29udGFpbmVyIGNsYXNzTmFtZT17Rm9vdGVyY3NzLmNvbnRlbnRDb250YWluZXJ9PlxuICAgICAgICAgICAgICAgIDxSb3c+XG4gICAgICAgICAgICAgICAgICAgIDxDb2wgeGw9ezN9IGxnPXszfSBtZD17M30gc209ezEyfSB4cz17MTJ9IGNsYXNzTmFtZT17Rm9vdGVyY3NzLmNvbnRhaW5lcn0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aDMgIGNsYXNzTmFtZT17Rm9vdGVyY3NzLmgzfT5SZXNzb3VyY2VzPC9oMz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bH0+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5saX0+PGEgaHJlZj1cIiN3aG9cIiAgY2xhc3NOYW1lPXtGb290ZXJjc3MudWwuYX0+UXVpIFNvbW1lLW5vdXMgPzwvYT48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPXtGb290ZXJjc3MubGl9PjxhIGhyZWY9XCIjXCIgY2xhc3NOYW1lPXtGb290ZXJjc3MudWwuYX0+QmxvZzwvYT48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPXtGb290ZXJjc3MubGl9PjxhIGhyZWY9XCIjam9ic1wiIGNsYXNzTmFtZT17Rm9vdGVyY3NzLnVsLmF9PlJlY3J1dGVtZW50PC9hPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5saX0+PGEgaHJlZj1cIiNcIiBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5NZW50aW9ucyBsw6lnYWxlczwvYT48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPXtGb290ZXJjc3MubGl9PjxhIGhyZWY9XCIjXCIgY2xhc3NOYW1lPXtGb290ZXJjc3MudWwuYX0+Q0dVPC9hPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5saX0+PGEgaHJlZj1cIiNcIiBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5GQVE8L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+XG4gICAgICAgICAgICAgICAgICAgIDwvQ29sPlxuICAgICAgICAgICAgICAgICAgICA8Q29sIHhsPXszfSBsZz17M30gbWQ9ezN9IHNtPXsxMn0geHM9ezEyfSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5jb250YWluZXJ9PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGgzICBjbGFzc05hbWU9e0Zvb3RlcmNzcy5oM30+Tm9zIFNlcnZpY2VzPC9oMz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bH0+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5saX0+PGEgaHJlZj1cIiNzZXJ2aWNlXCIgIGNsYXNzTmFtZT17Rm9vdGVyY3NzLnVsLmF9PklzeUNoYWluIEFzIGEgU2VydmljZTwvYT48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPXtGb290ZXJjc3MubGl9PjxhIGhyZWY9XCIjc2VydmljZVwiICBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5Db25zZWlsICYgU3RyYXTDqWdpZTwvYT48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPXtGb290ZXJjc3MubGl9PjxhIGhyZWY9XCIjc2VydmljZVwiICBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5Ew6l2ZWxvcHBlbWVudCBzdXItbWVzdXJlPC9hPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5saX0+PGEgaHJlZj1cIiNzZXJ2aWNlXCIgY2xhc3NOYW1lPXtGb290ZXJjc3MudWwuYX0+UiZEIEJsb2NrY2hhaW48L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT17Rm9vdGVyY3NzLmxpfT48YSBocmVmPVwiI3NlcnZpY2VcIiBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5Gb3JtYXRpb248L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgICAgICAgICAgPENvbCB4bD17M30gbGc9ezN9IG1kPXszfSBzbT17MTJ9IHhzPXsxMn0gY2xhc3NOYW1lPXtGb290ZXJjc3MuY29udGFpbmVyfT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxoMyAgY2xhc3NOYW1lPXtGb290ZXJjc3MuaDN9Pk5vcyBwcm9kdWl0czwvaDM+XG4gICAgICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPXtGb290ZXJjc3MudWx9PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPXtGb290ZXJjc3MubGl9PjxhIGhyZWY9XCIjcHJvZHVjdFwiICBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5TZWhhQ2hhaW48L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT17Rm9vdGVyY3NzLmxpfT48YSBocmVmPVwiI3Byb2R1Y3RcIiBjbGFzc05hbWU9e0Zvb3RlcmNzcy51bC5hfT5Jc3lDaGF0PC9hPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9e0Zvb3RlcmNzcy5saX0+PGEgaHJlZj1cIiNwcm9kdWN0XCIgY2xhc3NOYW1lPXtGb290ZXJjc3MudWwuYX0+SXN5Tm9kZTwvYT48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICAgICAgPC9Db2w+XG4gICAgICAgICAgICAgICAgICAgIDxDb2wgeGw9ezN9IGxnPXszfSBtZD17M30gc209ezEyfSB4cz17MTJ9IGNsYXNzTmFtZT17Rm9vdGVyY3NzLnNvY2lhbH0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2NvbXBhbnkvaXN5Y2hhaW4vXCIgY2xhc3NOYW1lPXtGb290ZXJjc3MubGlua2VkSW5raW5rfT48aW1nIHNyYz1cImh0dHBzOi8vaW1nLmljb25zOC5jb20vaW9zLWZpbGxlZC81MC9mZmZmZmYvbGlua2VkaW4ucG5nXCIvPiA8L2E+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiI1wiIGNsYXNzTmFtZT17Rm9vdGVyY3NzLmxpbmtlZElua2lua30+PGltZyBzcmM9XCJodHRwczovL2ltZy5pY29uczguY29tL2lvcy1maWxsZWQvNTAvZmZmZmZmL3R3aXR0ZXIucG5nXCIvPiA8L2E+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiI1wiIGNsYXNzTmFtZT17Rm9vdGVyY3NzLmxpbmtlZElua2lua30+PGltZyBzcmM9XCJodHRwczovL2ltZy5pY29uczguY29tL2lvcy1maWxsZWQvNTAvZmZmZmZmL2Rpc2NvcmQtbG9nby5wbmdcIi8+IDwvYT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCIjXCIgY2xhc3NOYW1lPXtGb290ZXJjc3MubGlua2VkSW5raW5rfT48aW1nIHNyYz1cImh0dHBzOi8vaW1nLmljb25zOC5jb20vaW9zLWZpbGxlZC81MC9mZmZmZmYvbWVkaXVtLWxvZ28ucG5nXCIvPjwvYT5cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgICAgICAgICAgPENvbCB4bD17MTJ9IGxnPXsxMn0gbWQ9ezEyfSBzbT17MTJ9IHhzPXsxMn0gY2xhc3NOYW1lPXtGb290ZXJjc3MuY29weXJpZ2h0fT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwID5Db3B5cmlnaHQgSXN5Q2hhaW4gwqkgMjAyMiBBbGwgcmlnaHRzIHJlc2VydmVkPC9wPlxuICAgICAgICAgICAgICAgICAgICA8L0NvbD4gICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8L1Jvdz4gICAgICAgXG4gICAgICAgICAgICA8L0NvbnRhaW5lcj5cbiAgICAgICAgPC9Db2w+IFxuICAgICAgICBcbiAgICAgICAgPC8+XG4gICAgKVxufSJdLCJuYW1lcyI6WyJSZWFjdCIsIkZvb3RlcmNzcyIsIkNvbCIsIlJvdyIsIkNvbnRhaW5lciIsIkZvbnRBd2Vzb21lSWNvbiIsIkZvb3RlciIsImNvbnRhaW5lciIsImNvbnRlbnRDb250YWluZXIiLCJoMyIsInVsIiwibGkiLCJhIiwic29jaWFsIiwibGlua2VkSW5raW5rIiwiY29weXJpZ2h0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/layouts/footer.jsx\n");
 
 /***/ }),
 
-/***/ 184:
+/***/ "./components/layouts/main.jsx":
+/*!*************************************!*\
+  !*** ./components/layouts/main.jsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Main_Layout)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Container */ \"react-bootstrap/Container\");\n/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Row */ \"react-bootstrap/Row\");\n/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);\nvar _jsxFileName = \"/home/mohamed/Bureau/Isychain/IsyChainWebsite/IsyChainWebsite/components/layouts/main.jsx\";\n\n\n\n\n\nfunction Main_Layout({\n  children\n}) {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {\n    children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)((react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1___default()), {\n      fluid: true,\n      className: \"p-0\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)((react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default()), {\n        className: \"m-0\",\n        children: children\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 9,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 13\n    }, this)\n  }, void 0, false);\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dHMvbWFpbi5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTs7O0FBRWUsU0FBU0csV0FBVCxDQUFxQjtBQUFDQyxFQUFBQTtBQUFELENBQXJCLEVBQWdDO0FBQzNDLHNCQUNJO0FBQUEsMkJBQ0ksOERBQUMsa0VBQUQ7QUFBVyxXQUFLLE1BQWhCO0FBQWlCLGVBQVMsRUFBQyxLQUEzQjtBQUFBLDZCQUNJLDhEQUFDLDREQUFEO0FBQUssaUJBQVMsRUFBQyxLQUFmO0FBQUEsa0JBQ0tBO0FBREw7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFESixtQkFESjtBQVNIIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vSXN5Q2hhaW5XZWJzaXRlLy4vY29tcG9uZW50cy9sYXlvdXRzL21haW4uanN4PzdjZjYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IENvbnRhaW5lciBmcm9tICdyZWFjdC1ib290c3RyYXAvQ29udGFpbmVyJ1xuaW1wb3J0IFJvdyBmcm9tICdyZWFjdC1ib290c3RyYXAvUm93J1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNYWluX0xheW91dCh7Y2hpbGRyZW59KXtcbiAgICByZXR1cm4gKFxuICAgICAgICA8PlxuICAgICAgICAgICAgPENvbnRhaW5lciBmbHVpZCBjbGFzc05hbWU9XCJwLTBcIj5cbiAgICAgICAgICAgICAgICA8Um93IGNsYXNzTmFtZT1cIm0tMFwiPlxuICAgICAgICAgICAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgICAgICAgICAgPC9Sb3c+XG4gICAgICAgICAgICA8L0NvbnRhaW5lcj5cbiAgICAgICAgPC8+XG4gICAgKVxufSJdLCJuYW1lcyI6WyJSZWFjdCIsIkNvbnRhaW5lciIsIlJvdyIsIk1haW5fTGF5b3V0IiwiY2hpbGRyZW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/layouts/main.jsx\n");
+
+/***/ }),
+
+/***/ "./components/navigation/navigationBar.jsx":
+/*!*************************************************!*\
+  !*** ./components/navigation/navigationBar.jsx ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ NavigationBar)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Col */ \"react-bootstrap/Col\");\n/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ \"react-bootstrap/Container\");\n/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Navbar */ \"react-bootstrap/Navbar\");\n/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Nav */ \"react-bootstrap/Nav\");\n/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../styles/navigation/navigationBar.module.css */ \"./styles/navigation/navigationBar.module.css\");\n/* harmony import */ var _styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Button */ \"react-bootstrap/Button\");\n/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);\nvar _jsxFileName = \"/home/mohamed/Bureau/Isychain/IsyChainWebsite/IsyChainWebsite/components/navigation/navigationBar.jsx\";\n\n\n\n\n\n\n\n\n\nfunction NavigationBar() {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.Fragment, {\n    children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_1___default()), {\n      className: \"p-0\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3___default()), {\n        className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().navbar),\n        expand: \"lg\",\n        children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default()), {\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"img\", {\n            src: \"/assets/Logo-vf.png\",\n            alt: \"IsyChain - We make the blockchain easy !\",\n            className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().logo)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 15,\n            columnNumber: 29\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3___default().Toggle), {\n            \"aria-controls\": \"basic-navbar-nav\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 17,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3___default().Collapse), {\n            id: \"basic-navbar-nav\",\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default()), {\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default().Link), {\n                className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().navlink),\n                href: \"#service\",\n                children: \" Nos services\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 21,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default().Link), {\n                className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().navlink),\n                href: \"#team\",\n                children: \" Notre Equipe\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 22,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default().Link), {\n                className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().navlink),\n                href: \"#jobs\",\n                children: \" Rejoignez-Nous\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 23,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default().Link), {\n                className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().navlink),\n                href: \"#product\",\n                children: \" Nos produits\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 24,\n                columnNumber: 33\n              }, this)]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 19,\n              columnNumber: 29\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default()), {\n              children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)((react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5___default()), {\n                href: \"#contact\",\n                className: (_styles_navigation_navigationBar_module_css__WEBPACK_IMPORTED_MODULE_7___default().contact),\n                type: \"submit\",\n                children: \"Contact\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 27,\n                columnNumber: 29\n              }, this)\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 26,\n              columnNumber: 29\n            }, this)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 18,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 14,\n          columnNumber: 21\n        }, this)\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 13,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 12,\n      columnNumber: 13\n    }, this)\n  }, void 0, false);\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL25hdmlnYXRpb24vbmF2aWdhdGlvbkJhci5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7OztBQUVlLFNBQVNPLGFBQVQsR0FBd0I7QUFDbkMsc0JBQ0k7QUFBQSwyQkFDSSw4REFBQyw0REFBRDtBQUFLLGVBQVMsRUFBQyxLQUFmO0FBQUEsNkJBQ0ksOERBQUMsK0RBQUQ7QUFBUSxpQkFBUyxFQUFFRiwyRkFBbkI7QUFBdUMsY0FBTSxFQUFDLElBQTlDO0FBQUEsK0JBQ0ksOERBQUMsa0VBQUQ7QUFBQSxrQ0FDUTtBQUFLLGVBQUcsRUFBQyxxQkFBVDtBQUErQixlQUFHLEVBQUMsMENBQW5DO0FBQThFLHFCQUFTLEVBQUVBLHlGQUFnQkk7QUFBekc7QUFBQTtBQUFBO0FBQUE7QUFBQSxrQkFEUixlQUdJLDhEQUFDLHNFQUFEO0FBQWUsNkJBQWM7QUFBN0I7QUFBQTtBQUFBO0FBQUE7QUFBQSxrQkFISixlQUlJLDhEQUFDLHdFQUFEO0FBQWlCLGNBQUUsRUFBQyxrQkFBcEI7QUFBQSxvQ0FDSSw4REFBQyw0REFBRDtBQUFBLHNDQUVJLDhEQUFDLGlFQUFEO0FBQVUseUJBQVMsRUFBRUosNEZBQXJCO0FBQTBDLG9CQUFJLEVBQUMsVUFBL0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsc0JBRkosZUFHSSw4REFBQyxpRUFBRDtBQUFVLHlCQUFTLEVBQUVBLDRGQUFyQjtBQUEwQyxvQkFBSSxFQUFDLE9BQS9DO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLHNCQUhKLGVBSUksOERBQUMsaUVBQUQ7QUFBVSx5QkFBUyxFQUFFQSw0RkFBckI7QUFBMEMsb0JBQUksRUFBQyxPQUEvQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxzQkFKSixlQUtJLDhEQUFDLGlFQUFEO0FBQVUseUJBQVMsRUFBRUEsNEZBQXJCO0FBQTBDLG9CQUFJLEVBQUMsVUFBL0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsc0JBTEo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG9CQURKLGVBUUksOERBQUMsNERBQUQ7QUFBQSxxQ0FDQSw4REFBQywrREFBRDtBQUFRLG9CQUFJLEVBQUMsVUFBYjtBQUF3Qix5QkFBUyxFQUFFQSw0RkFBbkM7QUFBd0Qsb0JBQUksRUFBQyxRQUE3RDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURBO0FBQUE7QUFBQTtBQUFBO0FBQUEsb0JBUko7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGtCQUpKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFESjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREosbUJBREo7QUEyQkgiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9Jc3lDaGFpbldlYnNpdGUvLi9jb21wb25lbnRzL25hdmlnYXRpb24vbmF2aWdhdGlvbkJhci5qc3g/NTM0NSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgQ29sIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db2wnXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db250YWluZXInXG5pbXBvcnQgTmF2YmFyIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9OYXZiYXInXG5pbXBvcnQgTmF2IGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9OYXYnXG5pbXBvcnQgU3R5bGVOYXZCYXIgZnJvbSAnLi4vLi4vc3R5bGVzL25hdmlnYXRpb24vbmF2aWdhdGlvbkJhci5tb2R1bGUuY3NzJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdyZWFjdC1ib290c3RyYXAvQnV0dG9uJ1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXZpZ2F0aW9uQmFyKCl7XG4gICAgcmV0dXJuIChcbiAgICAgICAgPD5cbiAgICAgICAgICAgIDxDb2wgY2xhc3NOYW1lPVwicC0wXCI+XG4gICAgICAgICAgICAgICAgPE5hdmJhciBjbGFzc05hbWU9e1N0eWxlTmF2QmFyLm5hdmJhcn0gZXhwYW5kPVwibGdcIj5cbiAgICAgICAgICAgICAgICAgICAgPENvbnRhaW5lcj4gICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL2Fzc2V0cy9Mb2dvLXZmLnBuZ1wiIGFsdD1cIklzeUNoYWluIC0gV2UgbWFrZSB0aGUgYmxvY2tjaGFpbiBlYXN5ICFcIiBjbGFzc05hbWU9e1N0eWxlTmF2QmFyLmxvZ299IC8+ICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICA8TmF2YmFyLlRvZ2dsZSBhcmlhLWNvbnRyb2xzPVwiYmFzaWMtbmF2YmFyLW5hdlwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICA8TmF2YmFyLkNvbGxhcHNlIGlkPVwiYmFzaWMtbmF2YmFyLW5hdlwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxOYXYgPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE5hdi5MaW5rIGNsYXNzTmFtZT17U3R5bGVOYXZCYXIubmF2bGlua30gaHJlZj1cIiNzZXJ2aWNlXCI+IE5vcyBzZXJ2aWNlczwvTmF2Lkxpbms+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxOYXYuTGluayBjbGFzc05hbWU9e1N0eWxlTmF2QmFyLm5hdmxpbmt9IGhyZWY9XCIjdGVhbVwiPiBOb3RyZSBFcXVpcGU8L05hdi5MaW5rPiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxOYXYuTGluayBjbGFzc05hbWU9e1N0eWxlTmF2QmFyLm5hdmxpbmt9IGhyZWY9XCIjam9ic1wiPiBSZWpvaWduZXotTm91czwvTmF2Lkxpbms+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxOYXYuTGluayBjbGFzc05hbWU9e1N0eWxlTmF2QmFyLm5hdmxpbmt9IGhyZWY9XCIjcHJvZHVjdFwiPiBOb3MgcHJvZHVpdHM8L05hdi5MaW5rPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvTmF2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxOYXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBocmVmPVwiI2NvbnRhY3RcIiBjbGFzc05hbWU9e1N0eWxlTmF2QmFyLmNvbnRhY3R9IHR5cGU9XCJzdWJtaXRcIj5Db250YWN0PC9CdXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9OYXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICA8L05hdmJhci5Db2xsYXBzZT5cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgPC9Db250YWluZXI+XG4gICAgICAgICAgICAgICAgPC9OYXZiYXI+XG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgPC8+XG4gICAgKVxufSJdLCJuYW1lcyI6WyJSZWFjdCIsIkNvbCIsIkNvbnRhaW5lciIsIk5hdmJhciIsIk5hdiIsIlN0eWxlTmF2QmFyIiwiQnV0dG9uIiwiTmF2aWdhdGlvbkJhciIsIm5hdmJhciIsImxvZ28iLCJuYXZsaW5rIiwiY29udGFjdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/navigation/navigationBar.jsx\n");
+
+/***/ }),
+
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"aos\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/main.css */ \"./styles/main.css\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aos/dist/aos.css */ \"./node_modules/aos/dist/aos.css\");\n/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _components_layouts_main__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/layouts/main */ \"./components/layouts/main.jsx\");\n/* harmony import */ var _components_navigation_navigationBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/navigation/navigationBar */ \"./components/navigation/navigationBar.jsx\");\n/* harmony import */ var _components_layouts_footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/layouts/footer */ \"./components/layouts/footer.jsx\");\n/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ \"@fortawesome/fontawesome-svg-core\");\n/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core/styles.css */ \"./node_modules/@fortawesome/fontawesome-svg-core/styles.css\");\n/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_10__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__);\nvar _jsxFileName = \"/home/mohamed/Bureau/Isychain/IsyChainWebsite/IsyChainWebsite/pages/_app.js\";\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_9__.config.autoAddCss = false;\n\nconst IsyChain_Simulator = ({\n  Component,\n  pageProps\n}) => {\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    aos__WEBPACK_IMPORTED_MODULE_2___default().init({\n      duration: 1000\n    });\n  });\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.Fragment, {\n    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(\"title\", {\n        children: \"IsyChain - We Make Blockchain Easy\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 23,\n        columnNumber: 13\n      }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(\"meta\", {\n        name: \"viewport\",\n        content: \"initial-scale=1.0, width=device-width\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 24,\n        columnNumber: 13\n      }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(\"meta\", {\n        name: \"description\",\n        content: \"IsyChain est une entreprise marocaine mais \\xE0 vocation africaine regroupant une \\xE9quipe pluridisciplinaire d'experts passionn\\xE9s par les technologies du web d\\xE9centralis\\xE9s et sp\\xE9cialis\\xE9s dans la technologie blockchain.\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 25,\n        columnNumber: 13\n      }, undefined)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 22,\n      columnNumber: 9\n    }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(_components_layouts_main__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {\n      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(_components_navigation_navigationBar__WEBPACK_IMPORTED_MODULE_7__[\"default\"], {}, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 28,\n        columnNumber: 13\n      }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(Component, _objectSpread({}, pageProps), void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 29,\n        columnNumber: 13\n      }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(_components_layouts_footer__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {}, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 30,\n        columnNumber: 13\n      }, undefined)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 27,\n      columnNumber: 9\n    }, undefined)]\n  }, void 0, true);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IsyChain_Simulator);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7OztBQUNBTyxnRkFBQSxHQUFvQixLQUFwQjs7QUFDQSxNQUFNRSxrQkFBa0IsR0FBRyxDQUFDO0FBQUNDLEVBQUFBLFNBQUQ7QUFBWUMsRUFBQUE7QUFBWixDQUFELEtBQTRCO0FBRXJEVixFQUFBQSxnREFBUyxDQUFDLE1BQUk7QUFDWkUsSUFBQUEsK0NBQUEsQ0FBUztBQUNQVSxNQUFBQSxRQUFRLEVBQUc7QUFESixLQUFUO0FBR0QsR0FKUSxDQUFUO0FBS0Esc0JBQ0U7QUFBQSw0QkFDSSwrREFBQyxrREFBRDtBQUFBLDhCQUNJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQURKLGVBRUk7QUFBTSxZQUFJLEVBQUMsVUFBWDtBQUFzQixlQUFPLEVBQUM7QUFBOUI7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFGSixlQUdJO0FBQU0sWUFBSSxFQUFDLGFBQVg7QUFBeUIsZUFBTyxFQUFDO0FBQWpDO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBSEo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQURKLGVBTUksK0RBQUMsZ0VBQUQ7QUFBQSw4QkFDSSwrREFBQyw0RUFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQURKLGVBRUksK0RBQUMsU0FBRCxvQkFBZUYsU0FBZjtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUZKLGVBR0ksK0RBQUMsa0VBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFISjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBTko7QUFBQSxrQkFERjtBQWdCRCxDQXZCRDs7QUF5QkEsaUVBQWVGLGtCQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vSXN5Q2hhaW5XZWJzaXRlLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VFZmZlY3QgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcbmltcG9ydCBBT1MgZnJvbSBcImFvc1wiO1xuaW1wb3J0IFwiLi4vc3R5bGVzL21haW4uY3NzXCI7XG5pbXBvcnQgXCJib290c3RyYXAvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIjtcbmltcG9ydCBcImFvcy9kaXN0L2Fvcy5jc3NcIjtcbmltcG9ydCBNYWluTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvbGF5b3V0cy9tYWluJ1xuaW1wb3J0IE5hdmlnYXRpbm9CYXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvbmF2aWdhdGlvbi9uYXZpZ2F0aW9uQmFyXCI7XG5pbXBvcnQgRm9vdGVyIGZyb20gJy4uL2NvbXBvbmVudHMvbGF5b3V0cy9mb290ZXInXG5pbXBvcnQgeyBjb25maWcgfSBmcm9tICdAZm9ydGF3ZXNvbWUvZm9udGF3ZXNvbWUtc3ZnLWNvcmUnXG5pbXBvcnQgJ0Bmb3J0YXdlc29tZS9mb250YXdlc29tZS1zdmctY29yZS9zdHlsZXMuY3NzJ1xuY29uZmlnLmF1dG9BZGRDc3MgPSBmYWxzZVxuY29uc3QgSXN5Q2hhaW5fU2ltdWxhdG9yID0gKHtDb21wb25lbnQsIHBhZ2VQcm9wc30pID0+IHtcblxuICB1c2VFZmZlY3QoKCk9PntcbiAgICBBT1MuaW5pdCh7XG4gICAgICBkdXJhdGlvbiA6IDEwMDBcbiAgICB9KVxuICB9KVxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICAgIDxIZWFkPlxuICAgICAgICAgICAgPHRpdGxlPklzeUNoYWluIC0gV2UgTWFrZSBCbG9ja2NoYWluIEVhc3k8L3RpdGxlPlxuICAgICAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxuICAgICAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIklzeUNoYWluIGVzdCB1bmUgZW50cmVwcmlzZSBtYXJvY2FpbmUgbWFpcyDDoCB2b2NhdGlvbiBhZnJpY2FpbmUgcmVncm91cGFudCB1bmUgw6lxdWlwZSBwbHVyaWRpc2NpcGxpbmFpcmUgZCdleHBlcnRzIHBhc3Npb25uw6lzIHBhciBsZXMgdGVjaG5vbG9naWVzIGR1IHdlYiBkw6ljZW50cmFsaXPDqXMgZXQgc3DDqWNpYWxpc8OpcyBkYW5zIGxhIHRlY2hub2xvZ2llIGJsb2NrY2hhaW4uXCIgLz5cbiAgICAgICAgPC9IZWFkPlxuICAgICAgICA8TWFpbkxheW91dD5cbiAgICAgICAgICAgIDxOYXZpZ2F0aW5vQmFyIC8+XG4gICAgICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgICAgICAgICA8Rm9vdGVyIC8+XG4gICAgICAgIDwvTWFpbkxheW91dD5cbiAgICAgICAgXG4gICAgPC8+XG4gICAgICAgIFxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBJc3lDaGFpbl9TaW11bGF0b3I7Il0sIm5hbWVzIjpbIlJlYWN0IiwidXNlRWZmZWN0IiwiSGVhZCIsIkFPUyIsIk1haW5MYXlvdXQiLCJOYXZpZ2F0aW5vQmFyIiwiRm9vdGVyIiwiY29uZmlnIiwiYXV0b0FkZENzcyIsIklzeUNoYWluX1NpbXVsYXRvciIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImluaXQiLCJkdXJhdGlvbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+
+/***/ }),
+
+/***/ "./styles/layouts/footer.module.css":
+/*!******************************************!*\
+  !*** ./styles/layouts/footer.module.css ***!
+  \******************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"container": "footer_container__J9_HP",
-	"h3": "footer_h3__QdVjD",
-	"ul": "footer_ul__DeQwd",
-	"li": "footer_li__Xi0x6",
-	"text": "footer_text__tRPiX",
-	"social": "footer_social__6xVwS",
-	"copyright": "footer_copyright__MDTKW",
-	"linkedInkink": "footer_linkedInkink__ZtGEf"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"footer_container__J9_HP\",\n\t\"h3\": \"footer_h3__QdVjD\",\n\t\"ul\": \"footer_ul__DeQwd\",\n\t\"li\": \"footer_li__Xi0x6\",\n\t\"text\": \"footer_text__tRPiX\",\n\t\"social\": \"footer_social__6xVwS\",\n\t\"copyright\": \"footer_copyright__MDTKW\",\n\t\"linkedInkink\": \"footer_linkedInkink__ZtGEf\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvbGF5b3V0cy9mb290ZXIubW9kdWxlLmNzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vSXN5Q2hhaW5XZWJzaXRlLy4vc3R5bGVzL2xheW91dHMvZm9vdGVyLm1vZHVsZS5jc3M/MDkxYiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJjb250YWluZXJcIjogXCJmb290ZXJfY29udGFpbmVyX19KOV9IUFwiLFxuXHRcImgzXCI6IFwiZm9vdGVyX2gzX19RZFZqRFwiLFxuXHRcInVsXCI6IFwiZm9vdGVyX3VsX19EZVF3ZFwiLFxuXHRcImxpXCI6IFwiZm9vdGVyX2xpX19YaTB4NlwiLFxuXHRcInRleHRcIjogXCJmb290ZXJfdGV4dF9fdFJQaVhcIixcblx0XCJzb2NpYWxcIjogXCJmb290ZXJfc29jaWFsX182eFZ3U1wiLFxuXHRcImNvcHlyaWdodFwiOiBcImZvb3Rlcl9jb3B5cmlnaHRfX01EVEtXXCIsXG5cdFwibGlua2VkSW5raW5rXCI6IFwiZm9vdGVyX2xpbmtlZElua2lua19fWnRHRWZcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./styles/layouts/footer.module.css\n");
 
 /***/ }),
 
-/***/ 292:
+/***/ "./styles/navigation/navigationBar.module.css":
+/*!****************************************************!*\
+  !*** ./styles/navigation/navigationBar.module.css ***!
+  \****************************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"logo": "navigationBar_logo__yQ_TT",
-	"navbrand": "navigationBar_navbrand__Fc7o9",
-	"navbar": "navigationBar_navbar__3KQV1",
-	"navlink": "navigationBar_navlink__1edFX",
-	"contact": "navigationBar_contact__2klJO"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"logo\": \"navigationBar_logo__yQ_TT\",\n\t\"navbrand\": \"navigationBar_navbrand__Fc7o9\",\n\t\"navbar\": \"navigationBar_navbar__3KQV1\",\n\t\"navlink\": \"navigationBar_navlink__1edFX\",\n\t\"contact\": \"navigationBar_contact__2klJO\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvbmF2aWdhdGlvbi9uYXZpZ2F0aW9uQmFyLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL0lzeUNoYWluV2Vic2l0ZS8uL3N0eWxlcy9uYXZpZ2F0aW9uL25hdmlnYXRpb25CYXIubW9kdWxlLmNzcz8zOTkxIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImxvZ29cIjogXCJuYXZpZ2F0aW9uQmFyX2xvZ29fX3lRX1RUXCIsXG5cdFwibmF2YnJhbmRcIjogXCJuYXZpZ2F0aW9uQmFyX25hdmJyYW5kX19GYzdvOVwiLFxuXHRcIm5hdmJhclwiOiBcIm5hdmlnYXRpb25CYXJfbmF2YmFyX18zS1FWMVwiLFxuXHRcIm5hdmxpbmtcIjogXCJuYXZpZ2F0aW9uQmFyX25hdmxpbmtfXzFlZEZYXCIsXG5cdFwiY29udGFjdFwiOiBcIm5hdmlnYXRpb25CYXJfY29udGFjdF9fMmtsSk9cIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./styles/navigation/navigationBar.module.css\n");
 
 /***/ }),
 
-/***/ 800:
+/***/ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@fortawesome/fontawesome-svg-core/styles.css ***!
+  \*******************************************************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 197:
+/***/ "./node_modules/aos/dist/aos.css":
+/*!***************************************!*\
+  !*** ./node_modules/aos/dist/aos.css ***!
+  \***************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.min.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
+  \***********************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./styles/main.css":
+/*!*************************!*\
+  !*** ./styles/main.css ***!
+  \*************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "@fortawesome/fontawesome-svg-core":
+/*!****************************************************!*\
+  !*** external "@fortawesome/fontawesome-svg-core" ***!
+  \****************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@fortawesome/fontawesome-svg-core");
+
+/***/ }),
+
+/***/ "@fortawesome/react-fontawesome":
+/*!*************************************************!*\
+  !*** external "@fortawesome/react-fontawesome" ***!
+  \*************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -446,7 +138,32 @@ module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 
-/***/ 689:
+/***/ "aos":
+/*!**********************!*\
+  !*** external "aos" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("aos");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -454,7 +171,10 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 937:
+/***/ "react-bootstrap/Button":
+/*!*****************************************!*\
+  !*** external "react-bootstrap/Button" ***!
+  \*****************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -462,7 +182,10 @@ module.exports = require("react-bootstrap/Button");
 
 /***/ }),
 
-/***/ 511:
+/***/ "react-bootstrap/Col":
+/*!**************************************!*\
+  !*** external "react-bootstrap/Col" ***!
+  \**************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -470,7 +193,10 @@ module.exports = require("react-bootstrap/Col");
 
 /***/ }),
 
-/***/ 678:
+/***/ "react-bootstrap/Container":
+/*!********************************************!*\
+  !*** external "react-bootstrap/Container" ***!
+  \********************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -478,7 +204,32 @@ module.exports = require("react-bootstrap/Container");
 
 /***/ }),
 
-/***/ 907:
+/***/ "react-bootstrap/Nav":
+/*!**************************************!*\
+  !*** external "react-bootstrap/Nav" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-bootstrap/Nav");
+
+/***/ }),
+
+/***/ "react-bootstrap/Navbar":
+/*!*****************************************!*\
+  !*** external "react-bootstrap/Navbar" ***!
+  \*****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-bootstrap/Navbar");
+
+/***/ }),
+
+/***/ "react-bootstrap/Row":
+/*!**************************************!*\
+  !*** external "react-bootstrap/Row" ***!
+  \**************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -486,11 +237,14 @@ module.exports = require("react-bootstrap/Row");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -501,7 +255,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(734));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

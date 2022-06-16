@@ -15,7 +15,7 @@ export default function Abstract(){
                                
                                 <Col xl={6} lg={6} md={6} sm={12} xs={12} style={{textAlign:"center;"}}  >
                                     <h2 className={StyleAbstract.h2}><span className={StyleAbstract.span}>10,000x </span> Plus Ecologique</h2>
-                                    <h2 className={StyleAbstract.h2}><span className={StyleAbstract.span}>1,000x </span> Moins Cher</h2>
+                                    <h2 className={StyleAbstract.h2}><span className={StyleAbstract.span}>1,000x </span>  Moins Cher</h2>
                                     <h2 className={StyleAbstract.h2}><span className={StyleAbstract.span}>100x </span> Plus Rapide</h2>
                                     <h2 className={StyleAbstract.h2}><span className={StyleAbstract.span}>1°</span> Au Maroc et en Afrique</h2>
                                     <h5 className={StyleAbstract.h5}>Nous facilitons votre Transformation Numérique grâce à une nouvelle Blockchain Rapide et Durable</h5>
