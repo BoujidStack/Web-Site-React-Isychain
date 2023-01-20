@@ -28,10 +28,18 @@ export default function Team(){
                                         <Tab eventKey="managers" title="Managers">
                                             <Row className={StyleTeam.row}>
                                                 <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleTeam.colTeamCard}>
+                                                    <img src="/assets/chakib.png" className={StyleTeam.teamCardImg} />
+                                                    <h1 className={StyleTeam.teamTitle}>Chakib Sellami</h1>
+                                                    <h3 className={StyleTeam.teamSubTitle}>Chief Executive Officer</h3>
+                                                    <a href="#"   className={StyleTeam.btn} ><span className={StyleTeam.linkedInkink}><img className={StyleTeam.iconSM} src="https://img.icons8.com/ios-filled/300/ffffff/linkedin-2--v1.png"/> </span></a>
+                                                    
+                                                    <span><FontAwesomeIcon icon="fa-brands fa-linkedin" /></span>
+                                                </Col>
+                                                <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleTeam.colTeamCard}>
                                                     <img src="/assets/ali.png" className={StyleTeam.teamCardImg} />
                                                     <h1 className={StyleTeam.teamTitle}>Ali El Alami</h1>
-                                                    <h3 className={StyleTeam.teamSubTitle}>Chief Executive Officer</h3>
-                                                    <a href="https://www.linkedin.com/in/ali-el-alami-8080b0170"   className={StyleTeam.btn} ><span className={StyleTeam.linkedInkink}><img className={StyleTeam.iconSM} src="https://img.icons8.com/ios-filled/300/ffffff/linkedin-2--v1.png"/> </span></a>
+                                                    <h3 className={StyleTeam.teamSubTitle}>Chief Strategy Officer</h3>
+                                                    <a href="#"   className={StyleTeam.btn} ><span className={StyleTeam.linkedInkink}><img className={StyleTeam.iconSM} src="https://img.icons8.com/ios-filled/300/ffffff/linkedin-2--v1.png"/> </span></a>
                                                     
                                                     <span><FontAwesomeIcon icon="fa-brands fa-linkedin" /></span>
                                                 </Col>
