@@ -50,6 +50,12 @@ export default function Team(){
                                                     <a href="https://www.linkedin.com/in/moisesidibe/"   className={StyleTeam.btn} ><span className={StyleTeam.linkedInkink}><img className={StyleTeam.iconSM} src="https://img.icons8.com/ios-filled/300/ffffff/linkedin-2--v1.png"/> </span></a>                                                     
                                                 </Col>
                                                 <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleTeam.colTeamCard}>
+                                                    <img src="/assets/driss.png" className={StyleTeam.teamCardImg} />
+                                                    <h1 className={StyleTeam.teamTitle}>Laboré K. Agbetsiassi</h1>
+                                                    <h3 className={StyleTeam.teamSubTitle}>Chief Marketing Officer</h3>
+                                                    <a href="https://www.linkedin.com/in/starlabman/"   className={StyleTeam.btn} ><span className={StyleTeam.linkedInkink}><img className={StyleTeam.iconSM} src="https://img.icons8.com/ios-filled/300/ffffff/linkedin-2--v1.png"/> </span></a>                                                     
+                                                </Col>
+                                                <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleTeam.colTeamCard}>
                                                     <img src="/assets/dalila.png" className={StyleTeam.teamCardImg} />
                                                     <h1 className={StyleTeam.teamTitle}>Dalila Sellami</h1>
                                                     <h3 className={StyleTeam.teamSubTitle}>Chief Operations Officer</h3>
@@ -61,6 +67,7 @@ export default function Team(){
                                                     <h3 className={StyleTeam.teamSubTitle}>Technical Advisor</h3>
                                                     <a href="https://www.linkedin.com/in/amine-ben-hammou-90840154/"   className={StyleTeam.btn} ><span className={StyleTeam.linkedInkink}><img className={StyleTeam.iconSM} src="https://img.icons8.com/ios-filled/300/ffffff/linkedin-2--v1.png"/> </span></a>                                                     
                                                 </Col>
+                                               
                                                 
                                             </Row>
                                         </Tab>

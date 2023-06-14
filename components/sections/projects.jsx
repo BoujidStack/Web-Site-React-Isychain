@@ -91,6 +91,10 @@ export default function Projects(){
                         <h1 className={StyleProjects.projectTitle}>IsyNode</h1>
                         <h3 className={StyleProjects.projectSubTitle}>Infrastructure de traçabilité pour la mobilité électrique.</h3>
                     </Col>
+                    <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleProjects.projectDiv}>
+                        <h1 className={StyleProjects.projectTitle}>IsySchool</h1>
+                        <h3 className={StyleProjects.projectSubTitle}>Programme de formation Blockchain et Web3 en ligne.</h3>
+                    </Col>
                 </Row>
         
         </>

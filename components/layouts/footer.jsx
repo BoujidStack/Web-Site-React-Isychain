@@ -41,6 +41,7 @@ export default function Footer(){
                                 <li className={Footercss.li}><a href="#product"  className={Footercss.ul.a}>SehaChain</a></li>
                                 <li className={Footercss.li}><a href="#product" className={Footercss.ul.a}>IsyChat</a></li>
                                 <li className={Footercss.li}><a href="#product" className={Footercss.ul.a}>IsyNode</a></li>
+                                <li className={Footercss.li}><a href="#product" className={Footercss.ul.a}>IsySchool</a></li>
                         </ul>
                     </Col>
                     <Col xl={3} lg={3} md={3} sm={12} xs={12} className={Footercss.social}>
@@ -51,7 +52,7 @@ export default function Footer(){
                         
                     </Col>
                     <Col xl={12} lg={12} md={12} sm={12} xs={12} className={Footercss.copyright}>
-                        <p >Copyright IsyChain © 2022 All rights reserved</p>
+                        <p >Copyright IsyChain © 2023 All rights reserved</p>
                     </Col>                  
                 </Row>       
             </Container>
