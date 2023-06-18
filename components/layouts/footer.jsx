@@ -46,9 +46,9 @@ export default function Footer(){
                     </Col>
                     <Col xl={3} lg={3} md={3} sm={12} xs={12} className={Footercss.social}>
                         <a href="https://www.linkedin.com/company/isychain/" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"/> </a>
-                        <a href="#" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"/> </a>
-                        <a href="#" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png"/> </a>
-                        <a href="#" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/medium-logo.png"/></a>
+                        <a href="#https://www.twitter.com/isychain/" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"/> </a>
+                        <a href="#https://www.linkedin.com/company/isychain/" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png"/> </a>
+                        <a href="#https://www.medium.com/isychain/" className={Footercss.linkedInkink}><img src="https://img.icons8.com/ios-filled/50/ffffff/medium-logo.png"/></a>
                         
                     </Col>
                     <Col xl={12} lg={12} md={12} sm={12} xs={12} className={Footercss.copyright}>
