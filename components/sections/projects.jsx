@@ -88,8 +88,8 @@ export default function Projects(){
                         <h3 className={StyleProjects.projectSubTitle}>Messagerie ultra-sécurisée basée sur la blockchain.</h3>
                     </Col>
                     <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleProjects.projectDiv}>
-                        <h1 className={StyleProjects.projectTitle}>IsyNode</h1>
-                        <h3 className={StyleProjects.projectSubTitle}>Infrastructure de traçabilité pour la mobilité électrique.</h3>
+                        <h1 className={StyleProjects.projectTitle}>IsyPay</h1>
+                        <h3 className={StyleProjects.projectSubTitle}>Transactions mobiles simplifiées, sécurisées par la blockchain.</h3>
                     </Col>
                     <Col data-aos="fade-up" xl={3} lg={3} md={3} sm={12} xs={12} className={StyleProjects.projectDiv}>
                         <h1 className={StyleProjects.projectTitle}>IsySchool</h1>
